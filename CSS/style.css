@@ -1,0 +1,320 @@
+/*
+ * Nav
+ */
+
+.nav-masthead .nav-link {
+  color: rgb(255, 255, 255);
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, 0.767);
+}
+
+.nav-masthead .nav-link+.nav-link {
+  margin-left: 1rem;
+}
+
+/*
+ * Nav
+ */
+
+/* Body */
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.experiencia {
+  top: 50%;
+  right: 35%;
+}
+
+.experiencia1 {
+  top: 50%;
+  right: 25%;
+}
+
+.dados {
+  top: 50%;
+  right: 10%;
+}
+
+.eventos {
+  top: 50%;
+  right: 25%;
+}
+
+.text {
+  font-family: "Arial Bold", Arial;
+  font-weight: 700;
+  font-size: 22px;
+  color: #ffffff !important;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+}
+
+.waves {
+  background-image: url(imagens/Blumenau-capa_edited.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: beige;
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  background-image: url(imagens/Blumenau-capa_edited.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: beige;
+  text-align: center;
+  padding-top: 15x;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+
+}
+
+.footer {
+  background-image: url(imagens/Blumenau-capa_edited-footer.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: beige;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+.end-page {
+  background-color: blue;
+}
+
+.waves svg {
+  display: block;
+}
+
+.featurette-divider {
+  margin: 5rem 0;
+  /* Deixa o <hr> melhor separado */
+}
+
+hr {
+  width: 70%;
+  height: 1px;
+  border: 1px;
+  margin: auto;
+}
+
+.other {
+  background-color: rgba(223, 223, 223, 0.6);
+  border-radius: 40px;
+}
+
+.chegar {
+  border-radius: 15%;
+}
+
+/* lista */
+
+.li {
+  list-style: none;
+  list-style-image: url(imagem/geo-alt-fill.svg);
+}
+
+.li1 {
+  list-style: none;
+  list-style-image: url(imagem/tag-fill.svg);
+}
+
+.li2 {
+  list-style: none;
+  list-style-image: url(imagem/calendar3.svg);
+}
+
+.li3 {
+  list-style: none;
+  list-style-image: url(imagem/person-fill.svg);
+}
+
+.li4 {
+  list-style: none;
+  list-style-image: url(imagem/send-fill.svg);
+}
+
+.li5 {
+  list-style: none;
+}
+
+.li6 {
+  list-style: none;
+  list-style-image: url(imagem/telephone.svg);
+}
+
+/* lista */
+
+aside {
+  padding: 20px;
+  width: 40%;
+  height: 90%;
+  float: right;
+}
+
+img {
+  border-radius: 3%;
+}
+
+.imagem {
+  border-radius: 0%;
+}
+
+.element {
+  color: rgb(134, 142, 248) !important;
+}
+
+/* Body */
+
+/* Botão claro/escuro */
+
+.switch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.switch .switch-wrapper {
+  display: inline-block;
+  width: 70px;
+  height: 34px;
+  position: relative;
+}
+
+.switch .switch-wrapper .switch-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 40px;
+  background-color: rgb(57, 57, 151);
+}
+
+.switch .switch-wrapper input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch .switch-wrapper .switch-button::before {
+  content: "";
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  left: 4px;
+  bottom: 4px;
+  border-radius: 50%;
+  transition: .4s all ease;
+  background-color: aliceblue;
+}
+
+.switch .switch-wrapper input:checked+.switch-button {
+  background-color: rgb(80, 80, 253);
+}
+
+.switch .switch-wrapper input:checked+.switch-button::before {
+  transform: translateX(34px);
+}
+
+.icones {
+  justify-content: space-between;
+  padding: 5px 8px 5px 8px;
+}
+
+.checkbox {
+  text-align: justify;
+  margin-left: 1%;
+}
+
+/* Botão claro/escuro */
+
+/* card slider */
+
+.swiper {
+  margin: 50px 0 0 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.slide-content {
+  background-color: #ffffff;
+  border-radius: 0 0 10px 10px;
+  padding: 5px 15px;
+}
+
+.imagem-slide {
+  border-radius: 10px 10px 0 0;
+}
+
+.swiper-button-next {
+ padding-top: 250px;
+ padding-right: 130px;
+}
+
+.swiper-button-prev {
+  padding-top: 250px;
+  padding-left: 130px;
+ }
+
+/* card slider */
+
+
+/* CSS CARROSSEL
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 40rem;
+}

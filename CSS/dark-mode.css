@@ -1,0 +1,63 @@
+:root {
+    --body-bg: rgb(219, 210, 186);
+    --body-color: rgb(20, 20, 20);
+    --h2-color: white;
+    --p-color: rgb(0, 0, 0);
+    --nav-color: rgb(26, 26, 104) !important;
+    --rodape-color: white;
+}
+
+body {
+    background-color: var(--body-bg);
+    color: var(--body-color);
+    transition: 0.4s;
+}
+
+h2 {
+    color: var(--body-color);
+}
+
+.list {
+    color: var(--body-color);
+}
+
+h5 {
+    color: var(--p-color);
+}
+
+p {
+    color: var(--p-color);
+}
+
+.historia {
+    color: var(--body-color);
+}
+
+.index {
+    color: var(--h2-color);
+}
+
+.rodape {
+    color: var(--rodape-color);
+}
+
+.cabeçalho {
+    background-color: var(--nav-color);
+}
+
+li {
+    color: var(--p-color);
+}
+
+.card-slider {
+    background-color: var(--body-bg);
+    transition: 0.4s;
+}
+
+.dark-mode:root {
+    --body-bg: rgb(31, 31, 31);
+    --body-color: white !important;
+    --p-color: #000000;
+    --nav-color: rgb(57, 57, 201) !important;
+    --rodape-color: white;
+}
